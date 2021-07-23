@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: linear-gradient(90deg, #b2babb, #ccd1d1, #e5e8e8);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.bmi {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background: #98a9ac;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.height {
+  position: relative;
+  left: 5px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.height-input {
+  padding: 5px;
+}
+
+.weight {
+  position: relative;
+  left: 13px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.weight-input {
+  padding: 5px;
+}
+
+.your-bmi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi-text {
+  font-size: 30px;
+}
+
+.bmi-number {
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  background: white;
+}
+
+.calc-btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-size: 15px;
+  border: solid black 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calc-btn:hover {
+  background: #98a9ac;
+}

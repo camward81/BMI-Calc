@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bmi">
+      <h1>BMI Calculator</h1>
+    </header>
+    <section class="height">
+      <h2 class="height-text">
+         Input your height (in):
+        <input class="height-input" type="number" min="1" max="999" />
+      </h2>
+    </section>
+    <section class="weight">
+      <h2 class="weight-text">
+         Input your weight (lbs):
+        <input class="weight-input" type="number" min="1" max="999" />
+      </h2>
+    </section>
+    <section class='calc'>
+      <button class="calc-btn">Calculate BMI</button>
+    </section>
+    <section class="your-bmi">
+      <h2 class="bmi-text">Your BMI = <h2>
+      <h2 class="bmi-number">0</h2>
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
