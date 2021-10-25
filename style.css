@@ -25,6 +25,11 @@ body {
   margin-bottom: 50px;
 }
 
+.refresh {
+  text-decoration: none;
+  color: black;
+}
+
 .height {
   position: relative;
   left: 5px;
